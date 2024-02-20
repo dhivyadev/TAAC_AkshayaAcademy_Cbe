@@ -26,6 +26,11 @@
   --bs-danger: #dc3545;
   --bs-light: #f2f2f2;
   --bs-dark: #14141f;
+  --white: #fff;
+    --bg_color1: #9fcc26;
+    --bg_color2: #e2374a;
+    --bg_color3: #A8198B;
+    --bg_color4: #FE9901;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
