@@ -418,7 +418,7 @@
     position: relative;
     display: inline-block;
     text-transform: uppercase;
-    color: #b42653;
+    color: #194174;
 }
 
 .about .container .section-about-title::before {
@@ -429,7 +429,7 @@
     right: 0;
     transform: translateY(-50%);
     margin-right: -50px;
-    border: 1px solid #b42653 !important;
+    border: 1px solid #194174 !important;
 }
 .top5{
     color: #b42653;
@@ -1303,10 +1303,18 @@
     left: 50%;
     z-index: -1;
     clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 .counter:hover .counter-icon i{
     transform: rotate(360deg);
-    transition: all 0.3s ease;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
 }
 .counter h3{
     color: #333;
@@ -1326,14 +1334,10 @@
 .counter.blue .counter-icon{ background-color: #7d2642; }
 .counter.blue .counter-icon:before{ background-color: #b42653; }
 .counter.blue .counter-value{ color: #194174; }
-.counter.red:before{ background-color: #FD6D4B; }
-.counter.red .counter-icon{ background-color: #D14026; }
-.counter.red .counter-icon:before{ background-color: #EA5736; }
-.counter.red .counter-value{ color: #EA5736; }
-.counter.gray:before{ background-color: #777; }
-.counter.gray .counter-icon{ background-color: #444; }
-.counter.gray .counter-icon:before{ background-color: #666; }
-.counter.gray .counter-value{ color: #666; }
 @media screen and (max-width:990px){
     .counter{ margin-bottom: 40px; }
+}
+
+.bg-taacred{
+    background-color: #b42653;
 }
