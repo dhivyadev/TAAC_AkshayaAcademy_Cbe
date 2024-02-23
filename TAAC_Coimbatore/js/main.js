@@ -203,3 +203,17 @@ switchAccordion = function(e) {
     accordionToggles[i].addEventListener('click', switchAccordion, false);
   }
 })();
+
+//Carousel Slider_ TAAC Neet/Jee
+
+$(".carousel").swipe({
+
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+  
+      if (direction == 'left') $(this).carousel('next');
+      if (direction == 'right') $(this).carousel('prev');
+  
+    },
+    allowPageScroll:"vertical"
+  
+  });
