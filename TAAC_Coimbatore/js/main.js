@@ -206,14 +206,16 @@ switchAccordion = function(e) {
 
 //Carousel Slider_ TAAC Neet/Jee
 
-$(".carousel").swipe({
-
-    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-  
-      if (direction == 'left') $(this).carousel('next');
-      if (direction == 'right') $(this).carousel('prev');
-  
-    },
-    allowPageScroll:"vertical"
-  
-  });
+$(document).ready(function(){
+    $('#testimonial-slider').owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination: false,
+        navigation:true,
+        navigationText:["",""],
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
