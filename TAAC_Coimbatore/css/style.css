@@ -1930,7 +1930,7 @@
       }
 
 /* TAAC NEET Carousel Sliders */
-.carousel-item{
+.neetjee .carousel-item{
     padding: 15px;
     cursor: -webkit-grabbing;
      
@@ -1952,7 +1952,7 @@
      }
    }
    
-   .carousel-indicators li{
+.neetjee .carousel-indicators li{
        display: inline-block;
        width: 10px;
        height: 10px;
@@ -1975,15 +1975,15 @@
    
    @media only screen and (max-width: 650px)
    {
-     .carousel-item img{
+     .neetjee .carousel-item img{
        height: auto;
      }
    }
-   .carousel-control-prev{
+   .neetjee .carousel-control-prev{
      left: -50px;
      margin: 0 -25px;
    }
-   .carousel-control-next{
+   .neetjee .carousel-control-next{
      right: -50px;
      margin: 0 -25px;
    }
