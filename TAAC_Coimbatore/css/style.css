@@ -2068,7 +2068,7 @@
 }
 .testimonial_taac .owl-theme .owl-controls .owl-buttons div{
     display: inline-block;
-    opacity:1;
+    opacity:0;
     background:#b42653;
     color: #194174;
     border-radius: 0;
@@ -2085,4 +2085,42 @@
 }
 .testimonial_taac .owl-next:before{
     content: "\f061";
+}
+
+.taac_h_p{
+    color: #393c3f;
+    font-weight: 600;
+}
+
+.taac_m {
+    display: flex;
+    margin: 20px auto;
+    overflow: hidden;
+    border: none;
+}
+
+.taac_m img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.taac_m-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.taac_m h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .taac_m {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .taac_m img {
+        width: 100%;
+    }
 }
