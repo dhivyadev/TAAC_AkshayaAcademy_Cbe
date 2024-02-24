@@ -169,10 +169,10 @@
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    padding: 15px 20px;
+    padding: 12px 18px;
     color: var(--bs-white) !important;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
     outline: none;
     transition: .5s;
 }
@@ -180,12 +180,13 @@
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 15px;
     color: #b42653 !important;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--bs-white) !important;
+    border-bottom: 4px solid #b42653;
 }
 
 .navbar-light .navbar-brand h1 {
@@ -1990,7 +1991,7 @@
 
 
    /* Management Hover Cards */
-   .testimonial{
+   .testimonial_taac{
     text-align: center;
     color: #F2EFE8;
     margin:80px 30px;
@@ -1999,85 +2000,89 @@
     position: relative;
     z-index: 1;
 }
-.testimonial:before{
+.testimonial_taac:before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #424242;
+    background-color: #393c3f;
     border-radius:30px;
     z-index: -1;
 }
-.testimonial:after{
+.testimonial_taac:after{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #FB8C00;
+    background-color: #b42653;
     border-radius:30px;
-    transform:rotate(-7deg);
+    transform:rotate(-5deg);
     z-index: -2;
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
 }
-.testimonial .pic{
-    border: 5px solid #F2EFE8;
+.testimonial_taac .pic{
+    border: 5px solid #e9bc49;
     display: inline-block;
     margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 154px;
     border-radius: 50%;
 }
-.testimonial .pic img{
+.testimonial_taac .pic img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.testimonial .testimonial-content{
+.testimonial_taac .testimonial-content{
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 30px;
     margin-bottom: 20px;
 }
-.testimonial .testimonial-title a{
+.testimonial_taac .testimonial-title a{
     display: inline-block;
-    color: #FB8C00;
+    color: #e9bc49;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.testimonial .testimonial-title small{
-    color: #F2EFE8;
+.testimonial_taac .testimonial-title small{
+    color: #487df7;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-.owl-theme .owl-controls{
+.testimonial_taac .owl-theme .owl-controls{
     margin-top: 0px;
     margin-left: 10px;
     text-align: center;
 }
-.owl-theme .owl-controls .owl-buttons div{
+.testimonial_taac .owl-theme .owl-controls .owl-buttons div{
     display: inline-block;
     opacity:1;
-    background:#FB8C00;
-    color: #F2EFE8;
+    background:#b42653;
+    color: #194174;
     border-radius: 0;
     width: 40px;
     height: 40px;
     line-height: 40px;
     margin-right: 5px;
 }
-.owl-prev:before,
+.testimonial_taac .owl-prev:before,
 .owl-next:before{
     content: "\f060";
     font-family: 'FontAwesome';
     font-size: 20px;
 }
-.owl-next:before{
+.testimonial_taac .owl-next:before{
     content: "\f061";
 }
