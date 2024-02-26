@@ -2078,7 +2078,7 @@
     margin-right: 5px;
 }
 .testimonial_taac .owl-prev:before,
-.owl-next:before{
+.testimonial_taac .owl-next:before{
     content: "\f060";
     font-family: 'FontAwesome';
     font-size: 20px;
@@ -2130,3 +2130,8 @@
     width: 100%;
     border-radius: 10px;
 }
+
+.border_taac{
+    border-color: 1px solid #0f2643;
+}
+
