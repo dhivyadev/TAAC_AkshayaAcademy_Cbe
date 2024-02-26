@@ -172,7 +172,7 @@
     padding: 12px 18px;
     color: var(--bs-white) !important;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     outline: none;
     transition: .5s;
 }
@@ -180,7 +180,7 @@
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 15px;
     color: #b42653 !important;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
