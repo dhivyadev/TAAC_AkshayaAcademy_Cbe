@@ -596,86 +596,27 @@
                     <div class="col-lg-6">
                         <h1 class="text-white mb-3">Register With Us</h1>
                         <p class="text-white mb-4"><span class="text-warning">Enroll Today, Illuminate Tomorrow</span> : Join Our Journey of CBSE Excellence!</p>
-                        <form id="taac_admissions_24" action="https://script.google.com/macros/s/AKfycbzr5Vbzk1JYOEijv7gPu5lMjwOUZuPZJ7TiGdCpzwxvkFtWv_P64zZ_GxNhqFeVsYPoYA/exec" method="post">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control bg-white border-0" id="name" name="name" placeholder="Student Name" required>
-                                        <label for="name">Student Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control bg-white border-0" id="p_name" name="p_name" placeholder="Parent Name" required>
-                                        <label for="p_name">Parent Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="date" class="form-control bg-white border-0" id="dob" name="dob" placeholder="Date of Birth" required>
-                                        <label for="dob">Date of Birth</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="number" class="form-control bg-white border-0" id="contact" name="contact" placeholder="Contact Number" required>
-                                        <label for="contact">Contact No</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control bg-white border-0" id="email" name="email" placeholder="Your Email" required>
-                                        <label for="email">Email</label>
-                                    </div>
-                                </div>
-                               
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <select class="form-select bg-white border-0" id="select1" name="select1">
-                                            <option value="0"></option>
-                                            <option value="NEET/JEE Course">NEET/JEE Course</option>
-                                            <option value="Grade KG+">KG+</option>
-                                            <option value="Grade 1">Grade 1</option>
-                                            <option value="Grade 2">Grade 2</option>
-                                            <option value="Grade 3">Grade 3</option>
-                                            <option value="Grade 4">Grade 4</option>
-                                            <option value="Grade 5">Grade 5</option>
-                                            <option value="Grade 6">Grade 6</option>
-                                            <option value="Grade 7">Grade 7</option>
-                                            <option value="Grade 8">Grade 8</option>
-                                            <option value="Grade 9">Grade 9</option>
-                                            <option value="Grade 10">Grade 10</option>
-                                            <option value="Grade 11">Grade 11</option>
-                                            <option value="Grade 12">Grade 12</option>
-                                        </select>
-                                        <label for="select1">Select Grade you're applying</label>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control bg-white border-0" placeholder="Special Request" id="message" name="message" style="height: 100px"></textarea>
-                                        <label for="message">Detailed Description of Request (if any)</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 d-flex align-items-center justify-content-center mt-4">
-                                    <button class="continue-application">
-                                        <div>
-                                            <div class="pencil"></div>
-                                            <div class="folder">
-                                                <div class="top">
-                                                    <svg viewBox="0 0 24 27">
-                                                        <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
-                                                    </svg>
-                                                </div>
-                                                <div class="paper"></div>
-                                            </div>
-                                        </div>
-                                        Continue Application
-                                    </button>
-                                </div>
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <img src="https://images.pexels.com/photos/6062496/pexels-photo-6062496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" alt="icon"> 
                             </div>
-                        </form>
+                            <div class="col-12 d-flex align-items-center justify-content-center mt-4">
+                                <button class="continue-application" onclick="redirectToGoogleForm()">
+                                    <div>
+                                        <div class="pencil"></div>
+                                        <div class="folder">
+                                            <div class="top">
+                                                <svg viewBox="0 0 24 27">
+                                                    <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                                                </svg>
+                                            </div>
+                                            <div class="paper"></div>
+                                        </div>
+                                    </div>
+                                    Continue Application
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1140,6 +1081,13 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script>
+            function redirectToGoogleForm() {
+                // Replace "YOUR_GOOGLE_FORM_LINK" with the actual link to your Google Form
+                var googleFormLink = "https://forms.gle/5FR2PRErWoe83dUS7";
+                window.location.href = googleFormLink;
+            }
+        </script>
     </body>
 
 </html>
