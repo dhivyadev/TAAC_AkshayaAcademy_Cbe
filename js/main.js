@@ -220,3 +220,17 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function () {
+    var sliderItems = $('.slider-item');
+    var currentIndex = 0;
+
+    function showSlide(index) {
+        sliderItems.removeClass('active');
+        sliderItems.eq(index).addClass('active');
+    }
+
+    setInterval(function () {
+        currentIndex = (currentIndex + 1) % sliderItems.length;
+        showSlide(currentIndex);
+    }, 5000); // Change 5000 to the desired interval in milliseconds
+});
