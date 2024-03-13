@@ -1594,7 +1594,7 @@
       box-sizing: border-box;
       font-family: 'Roboto', sans-serif;
   
-      .cta {
+      .b_cta {
         margin-left: auto;
         margin-right: 20px;
         min-width: 120px;
@@ -1656,7 +1656,7 @@
           text-align: center;
         }
   
-        .cta {
+        .b_cta {
           margin: 25px auto 0;
           width: 60%;
         }
