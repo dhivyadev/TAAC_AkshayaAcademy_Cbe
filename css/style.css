@@ -741,6 +741,9 @@
 
 .ExploreTour #InternationalTab-2 .international-item img {
     transition: 0.5s;
+    position: relative;
+    height: 40vh;
+    width: auto;
 }
 
 .ExploreTour #InternationalTab-2 .international-item:hover img {
