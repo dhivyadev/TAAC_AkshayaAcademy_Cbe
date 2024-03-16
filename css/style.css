@@ -907,7 +907,7 @@
 
 /*** Tour Booking Start ***/
 .booking {
-    background: linear-gradient(rgba(12, 35, 80, 0.8), rgba(25, 40, 69, 0.8)), url(../img/tour-booking-bg.jpg);
+    background: linear-gradient(rgba(12, 35, 80, 0.8), rgba(25, 40, 69, 0.8)), url(../img/TAAC_Collections/adm_bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
