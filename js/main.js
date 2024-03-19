@@ -234,3 +234,6 @@ $(document).ready(function () {
         showSlide(currentIndex);
     }, 5000); // Change 5000 to the desired interval in milliseconds
 });
+
+
+// TAAC Houses Card
