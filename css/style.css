@@ -2332,21 +2332,6 @@
     border-radius: 20px;
   }
   
-  .taac_houses .cost {
-    position: absolute;
-    top: 8px;
-    right: 6px;
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
-    padding: 6px 10px;
-    color: #fff;
-    font-size: clamp(0.8rem, 4vw, 0.9rem);
-    font-weight: 600;
-  }
-  
   .taac_houses .dark-text {
     color: #202134;
   }
@@ -2398,7 +2383,7 @@
   }
   
   .taac_houses .star {
-    color: #afe312;
+    color: #b42f56;
   }
   
   @media (max-width: 1050px) {
