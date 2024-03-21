@@ -2437,8 +2437,9 @@
     gap: 0px 240px;
     grid-auto-flow: row;
     max-width: 1000px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+
   }
   
   /* LEFT PART */
@@ -2485,7 +2486,7 @@
     position: absolute;
     top: 50%;
     height: 50%;
-    width: 50vw;
+    width: 15vw;
     background: #81afec;
   }
   .left::before{
@@ -2496,7 +2497,6 @@
     right: 0;
     transform: translateY(-50%) translateX(100%); 
   }
-  
   @media screen and (max-width: 450px){
     header .hero { 
       grid-template-rows: 6fr 1fr 6fr;
