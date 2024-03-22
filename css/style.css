@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 /*** Spinner Start ***/
 .taac_red_font{
     color: #b42653;
@@ -170,7 +170,7 @@
     font-family: 'Roboto', sans-serif;
     position: relative;
     padding: 12px 18px;
-    color: var(--bs-white) !important;
+    color: #ed638c !important;
     font-size: 14px;
     font-weight: 600;
     outline: none;
@@ -203,7 +203,7 @@
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 55px;
+    max-height: 50px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -275,7 +275,7 @@
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 65px;
+        max-height: 55px;
     }
 }
 
@@ -349,6 +349,7 @@
 
 .slide .content {
   position: absolute;
+  font-family: 'Lobster';
   bottom: 70px;
   left: -600px;
   opacity: 0;
@@ -416,22 +417,26 @@
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('/img/TAAC_Collections/bg1.png') no-repeat
+  background: url('/img/TAAC_Collections/bg4.png') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+  background: url('/img/TAAC_Collections/bg1.png') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+  background: url('/img/TAAC_Collections/bg3.png') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
+  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+    center top/cover;
+}
+.slide:nth-child(6) {
   background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
     center top/cover;
 } 
-.slide:nth-child(6)  {
+.slide:nth-child(7)  {
   background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
     center center/cover;
 }

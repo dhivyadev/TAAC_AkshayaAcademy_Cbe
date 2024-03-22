@@ -26,7 +26,7 @@
 const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
 const auto = true; // Auto scroll
-const intervalTime = 5000;
+const intervalTime = 7000;
 let slideInterval;
 
 const nextSlide = () => {
