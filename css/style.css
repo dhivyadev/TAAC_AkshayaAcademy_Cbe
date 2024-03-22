@@ -203,7 +203,7 @@
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 55px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -275,7 +275,7 @@
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 65px;
     }
 }
 
@@ -318,91 +318,122 @@
 }
 
 /*** Carousel Hero Header Start ***/
-.carousel-header .carousel-control-prev,
-.carousel-header .carousel-control-next {
-    background: transparent;
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 }
 
-.carousel-header .carousel-control-prev .carousel-control-prev-icon {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    padding: 25px 30px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 50px;
-    background-size: 60% 60%;
-}
-
-.carousel-header .carousel-control-next .carousel-control-next-icon {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    padding: 25px 30px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 0;
-    background-size: 60% 60%;
-
-}
-
-.carousel-header .carousel .carousel-indicators li,
-.carousel-header .carousel .carousel-indicators li,
-.carousel-header .carousel .carousel-indicators li {
-    opacity: 0;
-}
-
-.carousel-header .carousel-inner .carousel-item {
-    position: relative;
-    min-height: 100vh 
-}
-
-.carousel-header .carousel-inner .carousel-item img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.carousel-header .carousel-inner .carousel-item .carousel-caption  {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    padding-top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5));
-    background-size: cover;
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background-size: contain; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
 }
 
 @media (max-width: 768px) {
-    .carousel-header .carousel-inner .carousel-item img,
-    .carousel-header .carousel-inner .carousel-item .carousel-caption {
-        height: 700px;
-        margin-top: -100px;
-    }
+  .slider {
+    height: 80vh; /* Adjust the height of the slider container for smaller screens */
+  }
+}
 
-    .carousel-header {
-        height: 700px !important;
-    }
+.slide.current {
+  opacity: 1;
+}
 
-    .carousel-header .carousel-control-prev .carousel-control-prev-icon,
-    .carousel-header .carousel-control-next .carousel-control-next-icon {
-        opacity: 0;
-    }
-    
-    .search-bar {
-        margin-top: -100px;
-        transition: 0.5s;
-    }
+.slide .content {
+  position: absolute;
+  bottom: 70px;
+  left: -600px;
+  opacity: 0;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 25px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+  position: absolute;
+  top: 40%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  .slide .content {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-300px);
+  }
+}
+
+
+
+/* Backgorund Images */
+ 
+.slide:first-child {
+  background: url('/img/TAAC_Collections/bg2.png') no-repeat
+    center top/cover;
+}
+.slide:nth-child(2) {
+  background: url('/img/TAAC_Collections/bg1.png') no-repeat
+    center top/cover;
+}
+.slide:nth-child(3) {
+  background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+    center top/cover;
+}
+.slide:nth-child(4) {
+  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+    center top/cover;
+}
+.slide:nth-child(5) {
+  background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
+    center top/cover;
+} 
+.slide:nth-child(6)  {
+  background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
+    center center/cover;
 }
 /*** Carousel Hero Header End ***/
 
