@@ -382,17 +382,17 @@
 }
 
 .buttons button {
-  border: 2px solid #fff;
+  border: 2px solid rgb(255, 255, 255,0.3);
   background-color: transparent;
-  color: #fff;
+  color: #b05b5b;
   cursor: pointer;
-  padding: 13px 15px;
+  padding: 10px 12px;
   border-radius: 50%;
   outline: none;
 }
 
 .buttons button:hover {
-  background-color: #fff;
+  background-color: #d98d8d;
   color: #333;
 }
 
@@ -429,7 +429,7 @@
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+  background: url('/img/TAAC_Collections/Slider1.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(6) {
