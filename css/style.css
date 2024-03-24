@@ -318,128 +318,11 @@
 }
 
 /*** Carousel Hero Header Start ***/
-.slider {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-}
-
-.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background-size: contain; /* Ensure the background image covers the entire container */
-  background-position: center; /* Center the background image */
-}
-
-@media (max-width: 768px) {
-  .slider {
-    height: 80vh; /* Adjust the height of the slider container for smaller screens */
-  }
-}
-
-.slide.current {
-  opacity: 1;
-}
-
-.slide .content {
-  position: absolute;
-  font-family: 'Lobster';
-  bottom: 70px;
-  left: -600px;
-  opacity: 0;
-  width: 600px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
-  padding: 25px;
-}
-
-.slide .content h1 {
-  margin-bottom: 10px;
-}
-
-.slide.current .content {
-  opacity: 1;
-  transform: translateX(600px);
-  transition: all 0.7s ease-in-out 0.3s;
-}
-
-.buttons button#next {
-  position: absolute;
-  top: 40%;
-  right: 15px;
-}
-
-.buttons button#prev {
-  position: absolute;
-  top: 40%;
-  left: 15px;
-}
-
-.buttons button {
-  border: 2px solid rgb(255, 255, 255,0.3);
-  background-color: transparent;
-  color: #b05b5b;
-  cursor: pointer;
-  padding: 10px 12px;
-  border-radius: 50%;
-  outline: none;
-}
-
-.buttons button:hover {
-  background-color: #d98d8d;
-  color: #333;
-}
-
-@media (max-width: 500px) {
-  .slide .content {
-    bottom: -300px;
-    left: 0;
-    width: 100%;
-  }
-
-  .slide.current .content {
-    transform: translateY(-300px);
-  }
-}
 
 
 
-/* Backgorund Images */
- 
-.slide:first-child {
-  background: url('/img/TAAC_Collections/bg2.png') no-repeat
-    center top/cover;
-}
-.slide:nth-child(2) {
-  background: url('/img/TAAC_Collections/bg4.png') no-repeat
-    center top/cover;
-}
-.slide:nth-child(3) {
-  background: url('/img/TAAC_Collections/bg1.png') no-repeat
-    center top/cover;
-}
-.slide:nth-child(4) {
-  background: url('/img/TAAC_Collections/bg3.png') no-repeat
-    center top/cover;
-}
-.slide:nth-child(5) {
-  background: url('/img/TAAC_Collections/Slider1.jpg') no-repeat
-    center top/cover;
-}
-.slide:nth-child(6) {
-  background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
-    center top/cover;
-} 
-.slide:nth-child(7)  {
-  background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
-    center center/cover;
-}
+
+
 /*** Carousel Hero Header End ***/
 
 
@@ -1182,7 +1065,7 @@
 
 .testimonial .testimonial-carousel .owl-nav .owl-prev {
     position: absolute;
-    top: -55px;
+    top: -50px;
     left: 0;
     padding: 5px 30px;
     border: 1px solid var(--bs-primary);
@@ -1192,7 +1075,7 @@
 
 .testimonial .testimonial-carousel .owl-nav .owl-next {
     position: absolute;
-    top: -55px;
+    top: -50px;
     right: 0;
     padding: 5px 30px;
     border: 1px solid var(--bs-primary);
