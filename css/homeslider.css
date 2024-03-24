@@ -5,6 +5,13 @@
     height: 100vh;
     width: 100vw;
   }
+
+  @media (max-width: 500px) {
+    .slider {
+      height: 70vh; /* Allow the height to adjust based on content */
+      width: 100%; /* Adjust width to fit the screen */
+    }
+}
   
   .slide {
     position: absolute;
@@ -89,22 +96,22 @@
       center top/cover;
   }
   .slide:nth-child(2) {
-    background: url('https://source.unsplash.com/BeOW_PJjA0w/1600x900') no-repeat
+    background: url('../img/TAAC_Collections/bg4.png') no-repeat
       center top/cover;
   }
   .slide:nth-child(3) {
-    background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+    background: url('../img/TAAC_Collections/bg1.png') no-repeat
       center top/cover;
   }
   .slide:nth-child(4) {
-    background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+    background: url('../img/TAAC_Collections/bg3.png') no-repeat
       center top/cover;
   }
   .slide:nth-child(5) {
-    background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
+    background: url('../img/TAAC_Collections/Slider1.jpg') no-repeat
       center top/cover;
   } 
   .slide:nth-child(6)  {
-    background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
+    background: url('../img/TAAC_Collections/5.png') no-repeat
       center center/cover;
   }
