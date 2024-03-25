@@ -36,7 +36,7 @@
     opacity: 0;
     width: 500px;
     border-radius: 15px;
-    background-color: #ffef0863;
+    background-color: rgb(255,255,255,0.5);
     color: #333;
     padding: 26px;
     font-family: 'Lobster';
