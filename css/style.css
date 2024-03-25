@@ -2548,5 +2548,8 @@ button.control_next {
     }
   }
 
-
+.destination-img{
+  width: auto;
+  height: 50vh;
+}
   
